@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+
+main {
+    background-color: #1c1c1c;
+
+    .container {
+        gap: 3rem;
+    }
+
+    .card {
+        --bs-card-border-color: none;
+        --bs-card-bg: transparent;
+        color: #fff;
+        width: 10rem;
+
+        .card-img-top {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-radius: 5px;
+        }
+    }
+
+}
